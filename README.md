@@ -6,7 +6,11 @@
 *Token : [Secret]*  
 *Username : ScreenBot#4212*  
 
-##**PREFIX**  
+##**ADMINISTRATION**  
+- [ ] Page html d'administration du bot.
+- [ ] BDD portable. 
+
+##**PREFIX DE COMMANDES**  
 - [x] !aide : Permet d'afficher toutes les commandes du bot.   
 - [ ] !lol : Affiche une image aléatoire.  
 - [ ] !chuck : une phrase type chuck norris personnalisable (mets en que 2 ou 3 pour la forme je compléterai par la suite).  
@@ -35,7 +39,7 @@
 
 ##**STATISTIQUES**  
 - [ ] !stats_sz : liste les stats communautaire - nbre membres forum, ScreenScraper, like facebook, follower...  
-- [ ] !stats_ss : voir les stats de screenscraper. (MarbleMad à créer une api).  
+- [ ] !stats_ss : voir les stats de screenscraper. (MarbleMad devra nous fournir l'api).  
 
 ##**JEUX**  
 - [ ] !8ball : réponse de divination.   
