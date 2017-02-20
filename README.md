@@ -1,7 +1,7 @@
 ![logo](http://www.screenzone.fr/github/screenbot4discord/logo.png "logo")
 
   
-##**ID BOT** 
+##**ID BOT**  
 *ID : [Secret]*  
 *Token : [Secret]*  
 *Username : ScreenBot#4212*  
@@ -38,8 +38,13 @@
 - [ ] !stats_ss : voir les stats de screenscraper. (MarbleMad à créer une api).  
 
 ##**JEUX**  
-- [ ] !snap : une image de jeu et tu dois deviner (image stocké dans un répertoire).  
+- [ ] !8ball : réponse de divination.   
 - [ ] !games : affiche la page d'un jeu référencé sur ScreenScraper dans un navigateur (si possible chrome).  
+- [ ] !dice : jeux de dés.  
+- [ ] !card : Jeux de cartes. type belotte.
+
+##**SNAPGAMES**  
+- [ ] !snap : une image de jeu et tu dois deviner (image stocké dans un répertoire).  
 
 ##**RECHERCHE**  
 - [ ] !google : recherche google autoumatique.  
