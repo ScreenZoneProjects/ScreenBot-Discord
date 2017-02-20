@@ -24,6 +24,11 @@
 - [ ] !bite : (Classic de l'IRC) réponse multiple (1.8=D;2.8==D;3.8===D;4.8====D;5.8=====D)  
 - [ ] !hentai : pour les vieux geeks pervers :p  
 
+##**HORODATAGE**  
+- [ ] !hfra : heure locale en France.  
+- [ ] !husa : heure locale aux États-Unis.  
+- [ ] !hqbc : heure locale au Québec.  
+
 ##**DONS**  
 - [ ] !tipeee : pour connaître le montant total des dons sur tipeee.  
 - [ ] !patreon : pour connaître le montant total des dons sur patreon.  
