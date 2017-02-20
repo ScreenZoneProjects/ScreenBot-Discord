@@ -44,7 +44,9 @@
 - [ ] !card : Jeux de cartes. type belotte.
 
 ##**SNAPGAMES**  
-- [ ] !snap : une image de jeu et tu dois deviner (image stocké dans un répertoire).  
+- [ ] !snap : un screen de jeu à deviner (Bdd Portable ^^)(4 réponses possible)(image stocké dans un répertoire).  
+* 100 points par bonne réponse le but est d'en deviner le plus possible sans erreur :p
+* high score top 20
 
 ##**RECHERCHE**  
 - [ ] !google : recherche google autoumatique.  
