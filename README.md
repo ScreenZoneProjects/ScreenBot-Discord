@@ -1,4 +1,4 @@
-# ScreenBot-Discord
+![logo](http://www.screenzone.fr/github/screenbot4discord/logo.png "logo")
 
 **ID BOT**
 Username : ScreenBot#4212
