@@ -7,7 +7,7 @@
 *Username : ScreenBot#4212*  
 
 ##**PREFIX**  
-- [ ] !aide : Permet d'afficher toutes les commandes du bot.   
+- [x] !aide : Permet d'afficher toutes les commandes du bot.   
 - [ ] !lol : Affiche une image aléatoire.  
 - [ ] !chuck : une phrase type chuck norris personnalisable (mets en que 2 ou 3 pour la forme je compléterai par la suite).  
 - [ ] !purge : (.purge X) supprime X messages.  
