@@ -2,7 +2,9 @@
 
   
 ##**ID BOT** 
-Username : ScreenBot#4212
+*ID : [Secret]*  
+*Token : [Secret]*  
+*Username : ScreenBot#4212*  
 
 ##**PREFIX**  
 - [ ] !aide : Permet d'afficher toutes les commandes du bot.   
@@ -14,7 +16,8 @@ Username : ScreenBot#4212
 - [ ] !status : Valeur de l'activité modifiable.    
 - [ ] !blague : une blague aléatoire.  
 - [ ] !translate : genre en>fr Hello = Bonjour.  
-v!boobs : une image :p pour les pervers.  
+- [ ] !boobs : une image :p pour les pervers.
+- [ ] !bite : (Classic de l'IRC) réponse multiple (1.8=D;2.8==D;3.8===D;4.8====D;5.8=====D)  
 - [ ] !hentai : pour les vieux geeks pervers :p  
 
 ##**DONS**  
