@@ -12,7 +12,7 @@
 
 ##**PREFIX DE COMMANDES**  
 - [x] !aide : Permet d'afficher toutes les commandes du bot.   
-- [ ] !lol : Affiche une image aléatoire.  
+- [ ] !lol : Affiche une image aléatoire (en .gif en général).  
 - [ ] !chuck : une phrase type chuck norris personnalisable (mets en que 2 ou 3 pour la forme je compléterai par la suite).  
 - [ ] !purge : (.purge X) supprime X messages.  
 - [ ] !tell : message reporté pour un autre user absent au moment du post.(répondeur)  
