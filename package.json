@@ -1,31 +1,65 @@
 {
-  "name": "screenbot",
+  "name": "screenbot-discord",
   "version": "1.0.0",
-  "description": "ScreenZone Discord Bot (IRC)",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Bot Discord for ScreenZone",
   "keywords": [
-    "irc",
-    "bot",
-    "screenzone",
     "discord",
-    "twitch",
-    "chat",
-    "messages",
-    "commands"
+    "irc",
+    "gateway",
+    "bot",
+    "discord-irc",
+    "jbltx"
   ],
-  "author": "Mickael Bonfill aka JBLTX <mickael.bonfill@gmail.com>",
-  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ScreenZoneProjects/ScreenBot-Discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScreenZoneProjects/ScreenBot-Discord/issues"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "babel lib --out-dir dist",
+    "prepublish": "npm run build",
+    "lint": "eslint . --ignore-path .gitignore",
+    "coverage": "nyc --require babel-core/register _mocha -- $(find test -name '*.test.js')",
+    "report": "nyc report --reporter=text-lcov | coveralls",
+    "test": "npm run lint && npm run coverage"
+  },
+  "author": {
+    "name": "jbltx"
+  },
+  "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.0.0",
-    "erlpack": "github:hammerandchisel/erlpack#master",
-    "express": "^4.14.1",
+    "check-env": "1.2.0",
+    "commander": "2.9.0",
+    "discord.js": "11.0.0",
+    "irc": "0.5.2",
+    "lodash": "^4.17.4",
     "lokijs": "^1.4.3",
-    "node-opus": "^0.2.0",
-    "opusscript": "0.0.1",
-    "uws": "^0.12.0"
+    "strip-json-comments": "2.0.1",
+    "tmi.js": "^1.1.2",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "babel-core": "^6.7.4",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-node6": "^11.0.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.14",
+    "eslint": "^3.13.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.1.2",
+    "nyc": "^10.0.0",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
   }
 }
