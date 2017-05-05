@@ -1,0 +1,209 @@
+{
+    "26-cogs" : {
+        "cleverbot" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\cleverbot\\cleverbot.py",
+            "folder" : "data\\downloader\\26-cogs\\cleverbot"
+        },
+        "insult" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\insult\\insult.py",
+            "folder" : "data\\downloader\\26-cogs\\insult"
+        },
+        "nomassmentions" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\nomassmentions\\nomassmentions.py",
+            "folder" : "data\\downloader\\26-cogs\\nomassmentions"
+        },
+        "penis" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\penis\\penis.py",
+            "folder" : "data\\downloader\\26-cogs\\penis"
+        },
+        "remindme" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\remindme\\remindme.py",
+            "folder" : "data\\downloader\\26-cogs\\remindme"
+        },
+        "rift" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\rift\\rift.py",
+            "folder" : "data\\downloader\\26-cogs\\rift"
+        },
+        "rndstatus" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\rndstatus\\rndstatus.py",
+            "folder" : "data\\downloader\\26-cogs\\rndstatus"
+        },
+        "stickyroles" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\stickyroles\\stickyroles.py",
+            "folder" : "data\\downloader\\26-cogs\\stickyroles"
+        },
+        "trigger" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\26-cogs\\trigger\\trigger.py",
+            "folder" : "data\\downloader\\26-cogs\\trigger"
+        },
+        "url" : "https://github.com/Twentysix26/26-Cogs"
+    },
+    "Ax-Cogs" : {
+        "advgoogle" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\Ax-Cogs\\advgoogle\\advgoogle.py",
+            "folder" : "data\\downloader\\Ax-Cogs\\advgoogle"
+        },
+        "emote" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Ax-Cogs\\emote\\emote.py",
+            "folder" : "data\\downloader\\Ax-Cogs\\emote"
+        },
+        "geico" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Ax-Cogs\\geico\\geico.py",
+            "folder" : "data\\downloader\\Ax-Cogs\\geico"
+        },
+        "horoscope" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Ax-Cogs\\horoscope\\horoscope.py",
+            "folder" : "data\\downloader\\Ax-Cogs\\horoscope"
+        },
+        "points" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Ax-Cogs\\points\\points.py",
+            "folder" : "data\\downloader\\Ax-Cogs\\points"
+        },
+        "strawpoll" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Ax-Cogs\\strawpoll\\strawpoll.py",
+            "folder" : "data\\downloader\\Ax-Cogs\\strawpoll"
+        },
+        "url" : "https://github.com/Aioxas/Ax-Cogs"
+    },
+    "Dumb-Cogs" : {
+        "adventure" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\adventure\\adventure.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\adventure"
+        },
+        "alot" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\alot\\alot.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\alot"
+        },
+        "economytrickle" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\economytrickle\\economytrickle.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\economytrickle"
+        },
+        "engine" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\engine\\engine.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\engine"
+        },
+        "hal" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\hal\\hal.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\hal"
+        },
+        "ide" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\ide\\ide.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\ide"
+        },
+        "lolz" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\lolz\\lolz.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\lolz"
+        },
+        "noflippedtables" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\noflippedtables\\noflippedtables.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\noflippedtables"
+        },
+        "ping" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\ping\\ping.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\ping"
+        },
+        "repl" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\repl\\repl.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\repl"
+        },
+        "sadface" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\sadface\\sadface.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\sadface"
+        },
+        "snacktime" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Dumb-Cogs\\snacktime\\snacktime.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\snacktime"
+        },
+        "url" : "https://github.com/irdumbs/Dumb-Cogs",
+        "welcome" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\Dumb-Cogs\\welcome\\welcome.py",
+            "folder" : "data\\downloader\\Dumb-Cogs\\welcome"
+        }
+    },
+    "Mash-Cogs" : {
+        "bartender" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\bartender\\bartender.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\bartender"
+        },
+        "fourinarow" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\fourinarow\\fourinarow.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\fourinarow"
+        },
+        "freesound" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\freesound\\freesound.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\freesound"
+        },
+        "identicon" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\identicon\\identicon.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\identicon"
+        },
+        "imdb" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\imdb\\imdb.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\imdb"
+        },
+        "oboobs" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\oboobs\\oboobs.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\oboobs"
+        },
+        "omaps" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\omaps\\omaps.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\omaps"
+        },
+        "torrent" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\torrent\\torrent.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\torrent"
+        },
+        "translated" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\Mash-Cogs\\translated\\translated.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\translated"
+        },
+        "url" : "https://github.com/Canule/Mash-Cogs",
+        "weatherMs" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\Mash-Cogs\\weatherMs\\weatherMs.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\weatherMs"
+        },
+        "wikipedia" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\Mash-Cogs\\wikipedia\\wikipedia.py",
+            "folder" : "data\\downloader\\Mash-Cogs\\wikipedia"
+        }
+    }
+}

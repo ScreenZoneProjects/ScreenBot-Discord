@@ -1,0 +1,12 @@
+{
+    "91280005803278336" : {
+        "BOTS_MSG" : null,
+        "BOTS_ROLE" : null,
+        "CHANNEL" : "91280005803278336",
+        "GREETING" : [
+            "Bienvenue {0.name} sur le serveur Discord de {1.name} !"
+        ],
+        "ON" : true,
+        "WHISPER" : false
+    }
+}

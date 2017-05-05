@@ -1,0 +1,10 @@
+{
+    "91280005803278336" : {
+        "279973763464822784" : {
+            "active" : true,
+            "channel" : "#screenzone",
+            "host" : "chat.freenode.net",
+            "port" : 6667
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "91280005803278336" : {
+        "80" : "sendimg https://i.imgsafe.org/94049b470d.png",
+        "blague" : "choose \"blague1\" \"blague2\" \"blague3\"",
+        "bobo" : "sendimg https://i.imgsafe.org/9404c07895.gif",
+        "chuck" : "choose \"phrase1\" \"phrase2\" \"phrase3\"",
+        "cool" : "sendimg https://i.imgsafe.org/9404addbe7.gif",
+        "discord" : "serverinfo",
+        "google" : "advgoogle",
+        "hentai" : "gifr hentai",
+        "lol" : "gifr lol",
+        "playlists" : "playlist list",
+        "pseudo" : "set nickname",
+        "purge" : "cleanup messages",
+        "shoot" : "sendimg https://i.imgsafe.org/94046cbd6f.gif",
+        "status" : "set game",
+        "volume" : "audioset volume",
+        "wiki" : "wikipedia",
+        "zen" : "sendimg https://i.imgsafe.org/940485fa81.gif"
+    }
+}
