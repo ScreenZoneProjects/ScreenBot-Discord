@@ -1,55 +1,79 @@
+![logo](http://www.screenzone.fr/github/screenbot4discord/logo.jpg "logo")
 
-![intro](http://i.imgur.com/RgGlNpQ.jpg)
 
-# Red - A fully customizable Discord bot
-#### *Music, admin, trivia, fun commands and much more!*
-[<img src="https://img.shields.io/badge/Support-me!-orange.svg">](https://www.patreon.com/Twentysix26)  [<img src="https://img.shields.io/badge/discord-py-blue.svg">](https://github.com/Rapptz/discord.py) [<img src="https://discordapp.com/api/guilds/133049272517001216/widget.png?style=shield">](https://discord.gg/red) [![Build Status](https://travis-ci.org/Twentysix26/Red-DiscordBot.svg?branch=develop)](https://travis-ci.org/Twentysix26/Red-DiscordBot)
+# Commandes:
 
-**Red** is a fully modular bot – meaning all features and commands can be enabled/disabled to your liking, making it completely customizable.  
-This is also a *self-hosted bot* – meaning you will need to host and maintain your own instance. You can turn Red into an admin bot, music bot, trivia bot, new best friend or all of these together!  
-[Installation is easy](https://twentysix26.github.io/Red-Docs/), and you do NOT need to know anything about coding! Aside from installation and updating, every part of the bot can be controlled from within Discord.
+***GENERAL***  
+- [x] .aide : Permet d'afficher toutes les commandes du bot.   
+- [x] .lol : Affiche une image aléatoire (en .gif en général).  
+- [x] .chuck : une phrase type chuck norris personnalisable (mets en que 2 ou 3 pour la forme je compléterai par la suite).  
+- [x] .purge : (.purge X) supprime X messages.  
+- [ ] .tell : message reporté pour un autre user absent au moment du post.(répondeur)  
+- [x] .pseudo : possibilité de changer le pseudo du bot.  
+- [x] .status : Valeur de l'activité modifiable.    
+- [x] .blague : une blague aléatoire.  
+- [x] .translate : genre en>fr Hello = Bonjour.  
+- [x] .boobs : une image :p pour les pervers.
+- [ ] .bite : (Classic de l'IRC) réponse multiple (1.8=D;2.8==D;3.8===D;4.8====D;5.8=====D)  
+- [x] .hentai : pour les vieux geeks pervers :p  
 
-The default set of modules includes and is not limited to:
-* Moderation features (kick/ban/softban/hackban, mod-log, filter, chat cleanup)
-* Trivia (lists are included and can be easily added)
-* Music features (YouTube, SoundCloud, local files, playlists, queues)
-* Stream alerts (Twitch, Hitbox, Beam)
-* Slot machines
-* Custom commands
-* Imgur/gif search
+***HORODATAGE***  
+- [ ] .hfra : heure locale en France.  
+- [ ] .husa : heure locale aux États-Unis.  
+- [ ] .hqbc : heure locale au Québec.  
 
-Additionally, other modules (cogs) can be easily found and added from our growing community of cog repositories. Including:
-* Cleverbot integration (talk to Red and she talks back)
-* Loggers
-* Welcome messages setup
-* Reminders
-* Raffles
-* Leveler (increase levels for server participation)
-* DotA
-* And much, much more!
+***DONS***  
+- [x] .tipeee : pour connaître le montant total des dons sur tipeee.  
+- [x] .patreon : pour connaître le montant total des dons sur patreon.  
 
-Feel free to take a [peek](https://cogs.red/)!
+***MUSIQUES***  
+- [x] .play : joue une music aléatoire de type retrogaming (mp3 ou ogg dans un répertoire stocké).  
+- [x] .stop : arrete le player.  
+- [x] .next : plage suivante.  
+- [x] .prev : plage précédente.  
+- [x] .playlist : playlist dispo - liste les mp3.  
+- [x] .volume : ajuste le volume de 0 à 100.  
+- [x] .shuffle : joue un titre au hasard.  
 
-# Installation
+***STATISTIQUES***  
+- [ ] .stats_sz : liste les stats communautaire - nbre membres forum, ScreenScraper, like facebook, follower...  
+- [ ] .stats_ss : voir les stats de screenscraper. (MarbleMad devra nous fournir l'api).  
 
-The installation process is straightforward; all major platforms are supported: 
-* [Windows](https://twentysix26.github.io/Red-Docs/red_install_windows/)
-* [Linux](https://twentysix26.github.io/Red-Docs/red_install_linux/)
-* [macOS](https://twentysix26.github.io/Red-Docs/red_install_mac/)
+***JEUX***  
+- [ ] .8ball : réponse de divination.   
+- [ ] .games : affiche la page d'un jeu référencé sur ScreenScraper dans un navigateur (si possible chrome).  
+- [ ] .dice : jeux de dés.  
+- [ ] .card : Jeux de cartes. type belotte.
 
-Read the [getting started](https://twentysix26.github.io/Red-Docs/red_getting_started/) guide to quickly learn how to use Red.  
+***SNAPGAMES***  
+- [ ] .snap : un screen de jeu à deviner
 
-If you have any other questions, feel free to explore the [Docs](https://twentysix26.github.io/Red-Docs/) for guidance.
+***RECHERCHE***  
+- [x] .google : recherche google autoumatique.  
+- [x] .wikipedia : recherche wikipedia.  
 
-If [*after reading the guides*](https://twentysix26.github.io/Red-Docs/) you are still experiencing issues that are not listed on [this page](https://twentysix26.github.io/Red-Docs/red_guide_troubleshooting/) or in the [FAQs](https://twentysix26.github.io/Red-Docs/red_faq/), feel free to join the [official server](https://discord.gg/red) for help.  
-Have fun!
+***AUTOBOT***  
+- [x] .twitch : Avertit ce canal quand un screenzone commence un live.  
+- [x] .hitbox : pareil que twitch.  
+- [ ] .level : un système de niveau genre tout les X messages tu girmpe en level.  
+- [x] .Bienvenue : Bienvenue {User} sur le discord de screenzone.  
+- [x] .pont IRC  
+- [x] .ban
 
-# Join the community!
+***IMAGES***  
+- [x] .cool : image sonic.  
+- [x] .bobo : image zanghief.
+- [x] .zen : image dhalsim.  
+- [x] .shoot : image megaman.  
+- [x] .80 : image i love 80.
 
-Red is in continuous development, and it’s supported by an active community which produces new content (cogs/plugins) for everyone to enjoy. New features are constantly added. If you can’t [find](https://cogs.red/) what you’re looking for, we are open to suggestions! Stay tuned by [joining the official server](https://discord.gg/red)!
+		
+> **NOTE**: ScreenBot est developpé au-dessus de [Red](https://twentysix26.github.io/Red-Docs/), un bot Discord modulaire entièrement personnalisable.
 
-# License
+# Communauté
+
+N'hésitez pas à [rejoindre le serveur !](https://discordapp.com/channels/91280005803278336)
+
+# Licence
 
 Released under the [GNU GPL v3](LICENSE).
-
-*Red is named after the main character of "Transistor", a videogame by [Supergiant Games](https://www.supergiantgames.com/games/transistor/)*
