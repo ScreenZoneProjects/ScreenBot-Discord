@@ -18,9 +18,7 @@
 - [x] .hentai : pour les vieux geeks pervers :p  
 
 ***HORODATAGE***  
-- [ ] .hfra : heure locale en France.  
-- [ ] .husa : heure locale aux États-Unis.  
-- [ ] .hqbc : heure locale au Québec.  
+- [x] .heure : Donne l'heure locale à la timezone donnée.  
 
 ***DONS***  
 - [x] .tipeee : pour connaître le montant total des dons sur tipeee.  
@@ -40,9 +38,9 @@
 - [ ] .stats_ss : voir les stats de screenscraper. (MarbleMad devra nous fournir l'api).  
 
 ***JEUX***  
-- [ ] .8ball : réponse de divination.   
-- [ ] .games : affiche la page d'un jeu référencé sur ScreenScraper dans un navigateur (si possible chrome).  
-- [ ] .dice : jeux de dés.  
+- [x] .8ball : réponse de divination.   
+- [x] .game : affiche la page d'un jeu référencé sur ScreenScraper dans un navigateur (si possible chrome).  
+- [x] .dice : jeux de dés.  
 - [ ] .card : Jeux de cartes. type belotte.
 
 ***SNAPGAMES***  

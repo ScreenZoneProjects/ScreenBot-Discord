@@ -3,5 +3,6 @@ __pycache__
 data/mod/*
 data/red/*
 data/streams/*
+data/game/settings.json
 *.exe
 *.dll

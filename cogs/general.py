@@ -38,10 +38,12 @@ class General:
     def __init__(self, bot):
         self.bot = bot
         self.stopwatches = {}
-        self.ball = ["As I see it, yes", "It is certain", "It is decidedly so", "Most likely", "Outlook good",
-                     "Signs point to yes", "Without a doubt", "Yes", "Yes – definitely", "You may rely on it", "Reply hazy, try again",
-                     "Ask again later", "Better not tell you now", "Cannot predict now", "Concentrate and ask again",
-                     "Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very doubtful"]
+        self.ball = ["Essaye plus tard ", "Essaye encore ", "Pas d'avis ",
+                     "C'est ton destin ", "Le sort en est jeté ", "Une chance sur deux ",
+                     "Repose ta question ", "D'après moi oui ", "C'est certain ", "Oui absolument ",
+                     "Tu peux compter dessus ", "Sans aucun doute ", "Très probable ", "Oui ",
+                     "C'est bien parti ", "C'est non ", "Peu probable ", "Faut pas rêver ",
+                     "N'y compte pas ", "Impossible"]
         self.poll_sessions = []
 
     @commands.command(hidden=True)
@@ -62,17 +64,17 @@ class General:
             await self.bot.say(choice(choices))
 
     @commands.command(pass_context=True)
-    async def roll(self, ctx, number : int = 100):
-        """Rolls random number (between 1 and user choice)
+    async def dice(self, ctx, number : int = 6):
+        """Jet de dé (6 possibilités par défaut)
 
-        Defaults to 100.
+        L'utilisateur peut définir un nombre de possibilité différent.
         """
         author = ctx.message.author
         if number > 1:
             n = randint(1, number)
             await self.bot.say("{} :game_die: {} :game_die:".format(author.mention, n))
         else:
-            await self.bot.say("{} Maybe higher than 1? ;P".format(author.mention))
+            await self.bot.say("{} Une seule possibilité ? :laughing:".format(author.mention))
 
     @commands.command(pass_context=True)
     async def flip(self, ctx, user : discord.Member=None):
@@ -127,16 +129,16 @@ class General:
             await self.bot.say("{} We're square {}!"
                                "".format(red_choice.value, author.mention))
 
-    @commands.command(name="8", aliases=["8ball"])
-    async def _8ball(self, *, question : str):
-        """Ask 8 ball a question
+    @commands.command(name="8", aliases=["8ball"], pass_context=True)
+    async def _8ball(self, ctx, *, question : str):
+        """Posez une question à la boule 8 magique
 
-        Question must end with a question mark.
+        La question doit se terminer avec un point d'interrogation.
         """
         if question.endswith("?") and question != "?":
-            await self.bot.say("`" + choice(self.ball) + "`")
+            await self.bot.say(ctx.message.author.mention + " " + choice(self.ball))
         else:
-            await self.bot.say("That doesn't look like a question.")
+            await self.bot.say("Ca ne ressemble pas à une question...")
 
     @commands.command(aliases=["sw"], pass_context=True)
     async def stopwatch(self, ctx):

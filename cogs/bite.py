@@ -4,7 +4,7 @@ from discord.ext import commands
 
 
 class Bite:
-    """Penis related commands."""
+    """Sans commentaire..."""
 
     def __init__(self, bot):
         self.bot = bot

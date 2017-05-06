@@ -115,7 +115,7 @@ class Irc:
         ircchannel = irc_props["channel"]
         if ircchannel[0] != '#':
             ircchannel = '#' + ircchannel
-        self.ircbots.append(IrcBot(channel, h, p, ircchannel, "ScreenBot", self.bot))
+        self.ircbots.append(IrcBot(channel, h, p, ircchannel, self.bot.user.name, self.bot))
 
     def stop_irc(self, channel, irc_props):
         """Stop the IRC client and register events"""
