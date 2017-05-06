@@ -14,7 +14,7 @@
 - [x] .blague : une blague aléatoire.  
 - [x] .translate : genre en>fr Hello = Bonjour.  
 - [x] .boobs : une image :p pour les pervers.
-- [ ] .bite : (Classic de l'IRC) réponse multiple (1.8=D;2.8==D;3.8===D;4.8====D;5.8=====D)  
+- [x] .bite : (Classic de l'IRC) réponse multiple (1.8=D;2.8==D;3.8===D;4.8====D;5.8=====D)  
 - [x] .hentai : pour les vieux geeks pervers :p  
 
 ***HORODATAGE***  
