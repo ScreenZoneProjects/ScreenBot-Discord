@@ -18,7 +18,7 @@
 - [x] .hentai : pour les vieux geeks pervers :p  
 
 ***HORODATAGE***  
-- [x] .heure : Donne l'heure locale à la timezone donnée.  
+- [x] .heure : Donne l'heure locale à la ville donnée.  
 
 ***DONS***  
 - [x] .tipeee : pour connaître le montant total des dons sur tipeee.  
