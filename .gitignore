@@ -4,5 +4,6 @@ data/mod/*
 data/red/*
 data/streams/*
 data/game/settings.json
+data/tell/cache.json
 *.exe
 *.dll

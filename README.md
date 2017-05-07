@@ -8,7 +8,7 @@
 - [x] .lol : Affiche une image aléatoire (en .gif en général).  
 - [x] .chuck : une phrase type chuck norris personnalisable (mets en que 2 ou 3 pour la forme je compléterai par la suite).  
 - [x] .purge : (.purge X) supprime X messages.  
-- [ ] .tell : message reporté pour un autre user absent au moment du post.(répondeur)  
+- [x] .tell : message reporté pour un autre user absent au moment du post.(répondeur)  
 - [x] .pseudo : possibilité de changer le pseudo du bot.  
 - [x] .status : Valeur de l'activité modifiable.    
 - [x] .blague : une blague aléatoire.  
