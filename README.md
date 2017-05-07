@@ -35,7 +35,7 @@
 
 ***STATISTIQUES***  
 - [ ] .stats_sz : liste les stats communautaire - nbre membres forum, ScreenScraper, like facebook, follower...  
-- [ ] .stats_ss : voir les stats de screenscraper. (MarbleMad devra nous fournir l'api).  
+- [x] .stats_ss : voir les stats de screenscraper. (MarbleMad devra nous fournir l'api).  
 
 ***JEUX***  
 - [x] .8ball : réponse de divination.   
