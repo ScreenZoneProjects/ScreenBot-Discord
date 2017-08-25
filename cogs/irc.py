@@ -133,7 +133,7 @@ class Irc:
 
     async def check_messages(self, message):
         """Check if messages need to be transfered"""
-        if message.server is not None and message.content[0] != '.' and message.author.bot is False:
+        if message.server is not None and len(message.content) > 0 and message.content[0] != '.' and message.author.bot is False:
             servSetting = self.settings.get(message.server.id, None)
             if servSetting is not None:
                 link = servSetting.get(message.channel.id, None)

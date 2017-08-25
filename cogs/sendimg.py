@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import os
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 
 class SendImg:
@@ -20,8 +21,11 @@ class SendImg:
         else:
             fn = url.split('/')[-1]
             r = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            with urlopen(r) as imgfile:
-                await self.bot.upload(imgfile, filename=fn)
+            try:
+                with urlopen(r) as imgfile:
+                    await self.bot.upload(imgfile, filename=fn)
+            except HTTPError:
+                await self.bot.say("L'image est introuvable ! :cry:")
 
 
 def check_folders():
