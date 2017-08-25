@@ -1,0 +1,23 @@
+{
+    "cogs.advgoogle" : true,
+    "cogs.alias" : true,
+    "cogs.audio" : true,
+    "cogs.bite" : true,
+    "cogs.customcom" : true,
+    "cogs.downloader" : true,
+    "cogs.economy" : true,
+    "cogs.game" : true,
+    "cogs.general" : true,
+    "cogs.heure" : true,
+    "cogs.image" : true,
+    "cogs.irc" : true,
+    "cogs.mod" : true,
+    "cogs.sendimg" : true,
+    "cogs.stats" : true,
+    "cogs.streams" : true,
+    "cogs.tell" : true,
+    "cogs.translated" : true,
+    "cogs.trivia" : true,
+    "cogs.welcome" : true,
+    "cogs.wikipedia" : true
+}
