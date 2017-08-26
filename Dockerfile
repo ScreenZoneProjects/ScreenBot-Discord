@@ -14,7 +14,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/reposit
 
 COPY . /opt/app-root/src/
 
-RUN pip3 install --upgrade pip && pip3 install --upgrade -r /opt/app-root/src/requirements.txt
+RUN pip3 install --upgrade pip && pip3 install --upgrade -r /opt/app-root/src/requirements.txt && chmod -R 777 /opt/app-root/src
 
 WORKDIR /opt/app-root/src
 
