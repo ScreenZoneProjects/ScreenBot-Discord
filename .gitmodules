@@ -1,0 +1,15 @@
+[submodule "26-Cogs"]
+    path = data/downloader/26-cogs
+    url = https://github.com/Twentysix26/26-Cogs
+
+[submodule "Ax-Cogs"]
+    path = data/downloader/Ax-Cogs
+    url = https://github.com/Aioxas/ax-cogs
+
+[submodule "Dumb-Cogs"]
+    path = data/downloader/Dumb-Cogs
+    url = https://github.com/irdumbs/Dumb-Cogs
+
+[submodule "Mash-Cogs"]
+    path = data/downloader/Mash-Cogs
+    url = https://github.com/Canule/Mash-Cogs
