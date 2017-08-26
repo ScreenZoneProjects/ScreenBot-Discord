@@ -1,0 +1,10 @@
+*.log
+*.pyc
+__pycache__
+data/mod/*
+data/red/settings.json
+data/streams/*
+data/game/settings.json
+data/tell/cache.json
+*.exe
+*.dll
