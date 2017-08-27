@@ -1,6 +1,7 @@
 *.log
 *.pyc
 __pycache__
+data/audio/cache/*
 data/mod/*
 data/red/settings.json
 data/streams/*
